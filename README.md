@@ -34,7 +34,7 @@
   },
 ``` 
 
-##### Helper files
+##### Helper scripts
  Once the data scrapping is completed, there are two helper files included which can quickly import the data into either mongodb or sqlite3.
 
 ##### Json to mongo
