@@ -1,12 +1,12 @@
-# BBC recipes web scrapper
+# BBC recipes web scraper
 - ![bbc_logo](https://static.wikia.nocookie.net/logopedia/images/d/d7/BBC_2021.svg/revision/latest/scale-to-width-down/250?cb=20210705123032)
 - ![python_logo](https://www.python.org/static/community_logos/python-powered-w-100x40.png)
   
 ## A simple python script to convert all the recipes listed on the bbc's website into json format.
 
-### First time doing anything web scrapping related, so not the cleanest but get's the job done 
+### First time doing anything web scraping related, so not the cleanest but get's the job done 
 
-#### The web scrapper script
+#### The web scraper script
  The BBC recipes website, paginates by alphabetical order, then by the results for that character. Starting at ```/a/1``` and ending at ```/z/1```. Each character has an unspecified amount of pages, so this is the first thing the script get's when looking at a new characters page.
 
  Total runtime of the script is between 30-40 minutes, with random pauses. Once completed you will have a JSON file with 9,000+recipes
