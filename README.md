@@ -33,4 +33,17 @@
     ]
   },
 ``` 
+
+##### Helper files
+ Once the data scrapping is completed, there are two helper files included which can quickly import the data into either mongodb or sqlite3.
+
+##### Json to mongo
+ ```bash
+  py json_mongo.py input.json
+ ```
+
+##### Json to sqlite3
+```bash
+  py __main__.py input.json output.db
+```
  
